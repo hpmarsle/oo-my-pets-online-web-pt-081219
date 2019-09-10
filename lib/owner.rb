@@ -58,7 +58,7 @@ class Owner
    end 
    
    def list_pets
-     @cats.merge(@dogs)
+     @cats.merge(@dogs).each{|pet|puts pet}
     # "I have #{@owner.dogs.count} dog(s), and #{@owner.cats.count} cat(s)."
    end 
 end
