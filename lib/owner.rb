@@ -63,13 +63,3 @@ class Owner
     # "I have #{@owner.dogs.count} dog(s), and #{@owner.cats.count} cat(s)."
    end 
 end
-
-      
-    # bought_cat = Cat.all.find{|cat|cat.name == cat_name}
-    # prev_owner = self.class.all.find{|owner|owner.name == bought_cat.owner}
-     
-    # #take away the cat instance from the previous owner instance 
-    # prev_owner.cats.delete(bought_cat)   
-     
-    # bought_cat.owner = self.name
-    # self.cats << bought_cat  
